@@ -80,7 +80,7 @@ html {
 } */
 
 body {
-    background-image: url('/images/photo-1603346133929-24265debae88.jpg');
+    background-image: url('images/photo-1603346133929-24265debae88.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -92,3 +92,4 @@ body {
     object-fit: cover;
 
 }
+
