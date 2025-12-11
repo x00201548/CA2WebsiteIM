@@ -1,0 +1,93 @@
+
+
+.hero-section {
+    
+    background-color:rgba(208, 210, 210, 0.144);
+    padding: 12rem;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    /* background-image: linear-gradient(to bottom, rgb(138, 138, 138),white); */
+    display: flex;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.profile-pic{
+    height: 14rem;
+    width: 14rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: .4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media (max-width: 705px) {
+    .hero-section {
+        padding: 6rem 1rem; 
+    }
+}
+
+.col{
+    padding: 1rem;
+    stroke-width: 2rem;
+}
+.Name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(215, 215, 215);
+}
+
+.navbar{
+     background-color:rgba(191, 191, 191, 0.953);
+     max-width: 100%;
+}
+
+
+
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item{
+    font-size:large ;
+    
+}
+.nav-link{
+
+    text-decoration: white;
+
+}
+
+html {
+    scroll-padding-top: 25rem;
+    padding-bottom: 25rem;
+}
+
+/* body{
+    background-image:url('images/7f5d6d1013dc2c93b0e2f280bcd86525.jpg');
+     background-image: linear-gradient(to bottom, rgb(138, 138, 138), white);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+} */
+
+body {
+    background-image: url('../images/photo-1603346133929-24265debae88.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.card-img-top {
+    height: 19rem;
+    object-fit: cover;
+}
